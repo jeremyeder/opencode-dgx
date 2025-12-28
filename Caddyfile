@@ -1,0 +1,8 @@
+{
+	local_certs
+}
+
+192-168-1-190.nip.io {
+	tls internal
+	reverse_proxy oauth2-proxy:4180
+}
